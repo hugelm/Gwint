@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+
+# The two original card archives, ~224 MB each. GitHub rejects any single
+# file above 100 MB, so they stay local. The images built from them are
+# committed instead, which is all the game needs.
+assets_src/
+

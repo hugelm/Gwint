@@ -1,0 +1,1308 @@
+{
+  "_schema": {
+    "id": "file name under cards/<language>/small and /large",
+    "name": "{\"de\": \"...\", \"en\": \"...\"} - the German name is the identity used by muster and tight bond",
+    "row": "melee | ranged | siege | agile | special | weather",
+    "ability": "bond | spy | medic | morale | horn | scorch | scorch_melee | decoy | muster | frost | fog | rain | clear",
+    "hero": "true = immune to weather and scorch, cannot be revived",
+    "count": "number of copies in the deck",
+    "muster_group": "optional - cards sharing this value muster together even though their names differ (vampires, arachas)"
+  },
+  "north": [
+    {
+      "id": "008",
+      "name": {
+        "de": "Vernon Roche",
+        "en": "Vernon Roche"
+      },
+      "strength": 10,
+      "row": "melee",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "009",
+      "name": {
+        "de": "Ves",
+        "en": "Ves"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "010",
+      "name": {
+        "de": "Siegfried von Denesle",
+        "en": "Siegfried of Denesle"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "011",
+      "name": {
+        "de": "Fürst Stennis",
+        "en": "Prince Stennis"
+      },
+      "strength": 5,
+      "row": "melee",
+      "ability": "spy",
+      "count": 1
+    },
+    {
+      "id": "012",
+      "name": {
+        "de": "Sigismund Dijkstra",
+        "en": "Sigismund Dijkstra"
+      },
+      "strength": 4,
+      "row": "melee",
+      "ability": "spy",
+      "count": 1
+    },
+    {
+      "id": "013",
+      "name": {
+        "de": "Blaue Streifen",
+        "en": "Blue Stripes Commando"
+      },
+      "strength": 4,
+      "row": "melee",
+      "ability": "bond",
+      "count": 3
+    },
+    {
+      "id": "014",
+      "name": {
+        "de": "Yarpen Zigrin",
+        "en": "Yarpen Zigrin"
+      },
+      "strength": 2,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "015",
+      "name": {
+        "de": "Gottverdammte Infanterie",
+        "en": "Poor F***ing Infantry"
+      },
+      "strength": 1,
+      "row": "melee",
+      "ability": "bond",
+      "count": 3
+    },
+    {
+      "id": "016",
+      "name": {
+        "de": "Redanischer Fußsoldat",
+        "en": "Redanian Foot Soldier"
+      },
+      "strength": 1,
+      "row": "melee",
+      "count": 2
+    },
+    {
+      "id": "018",
+      "name": {
+        "de": "Philippa Eilhart",
+        "en": "Philippa Eilhart"
+      },
+      "strength": 10,
+      "row": "ranged",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "019",
+      "name": {
+        "de": "Detmold",
+        "en": "Detmold"
+      },
+      "strength": 6,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "020",
+      "name": {
+        "de": "Keira Metz",
+        "en": "Keira Metz"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "021",
+      "name": {
+        "de": "Sheala de Tancarville",
+        "en": "Sheala de Tancarville"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "022",
+      "name": {
+        "de": "Drachenjäger von Crinfrid",
+        "en": "Crinfrid Reavers Dragon Hunter"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "ability": "bond",
+      "count": 3
+    },
+    {
+      "id": "023",
+      "name": {
+        "de": "Sabrina Glevissig",
+        "en": "Sabrina Glevissig"
+      },
+      "strength": 4,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "024",
+      "name": {
+        "de": "Shelden Skaggs",
+        "en": "Sheldon Skaggs"
+      },
+      "strength": 4,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "025",
+      "name": {
+        "de": "Katapult",
+        "en": "Catapult"
+      },
+      "strength": 8,
+      "row": "siege",
+      "ability": "bond",
+      "count": 2
+    },
+    {
+      "id": "026",
+      "name": {
+        "de": "Tribok",
+        "en": "Trebuchet"
+      },
+      "strength": 6,
+      "row": "siege",
+      "count": 2
+    },
+    {
+      "id": "028",
+      "name": {
+        "de": "Ballista",
+        "en": "Ballista"
+      },
+      "strength": 6,
+      "row": "siege",
+      "count": 2
+    },
+    {
+      "id": "030",
+      "name": {
+        "de": "Belagerungsturm",
+        "en": "Siege Tower"
+      },
+      "strength": 6,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "031",
+      "name": {
+        "de": "Heilerin des Grauen Fähnleins",
+        "en": "Dun Banner Medic"
+      },
+      "strength": 5,
+      "row": "siege",
+      "ability": "medic",
+      "count": 1
+    },
+    {
+      "id": "032",
+      "name": {
+        "de": "Thaler",
+        "en": "Thaler"
+      },
+      "strength": 1,
+      "row": "siege",
+      "ability": "spy",
+      "count": 1
+    },
+    {
+      "id": "033",
+      "name": {
+        "de": "Kaedwen-Belagerungsexperte",
+        "en": "Kaedweni Siege Expert"
+      },
+      "strength": 1,
+      "row": "siege",
+      "ability": "morale",
+      "count": 3
+    }
+  ],
+  "neutral": [
+    {
+      "id": "156",
+      "name": {
+        "de": "Finte",
+        "en": "Decoy"
+      },
+      "strength": 0,
+      "row": "special",
+      "ability": "decoy",
+      "count": 3
+    },
+    {
+      "id": "157",
+      "name": {
+        "de": "Horn des Kommandanten",
+        "en": "Commander's Horn"
+      },
+      "strength": 0,
+      "row": "special",
+      "ability": "horn",
+      "count": 3
+    },
+    {
+      "id": "158",
+      "name": {
+        "de": "Verbrennen",
+        "en": "Scorch"
+      },
+      "strength": 0,
+      "row": "special",
+      "ability": "scorch",
+      "count": 3
+    },
+    {
+      "id": "159",
+      "name": {
+        "de": "Klirrende Kälte",
+        "en": "Biting Frost"
+      },
+      "strength": 0,
+      "row": "weather",
+      "ability": "frost",
+      "count": 3
+    },
+    {
+      "id": "160",
+      "name": {
+        "de": "Extrem dichter Nebel",
+        "en": "Impenetrable Fog"
+      },
+      "strength": 0,
+      "row": "weather",
+      "ability": "fog",
+      "count": 3
+    },
+    {
+      "id": "161",
+      "name": {
+        "de": "Strömender Regen",
+        "en": "Torrential Rain"
+      },
+      "strength": 0,
+      "row": "weather",
+      "ability": "rain",
+      "count": 3
+    },
+    {
+      "id": "162",
+      "name": {
+        "de": "Gutes Wetter",
+        "en": "Clear Weather"
+      },
+      "strength": 0,
+      "row": "weather",
+      "ability": "clear",
+      "count": 3
+    },
+    {
+      "id": "163",
+      "name": {
+        "de": "Geralt von Riva",
+        "en": "Geralt of Rivia"
+      },
+      "strength": 15,
+      "row": "melee",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "164",
+      "name": {
+        "de": "Cirilla",
+        "en": "Ciri"
+      },
+      "strength": 15,
+      "row": "melee",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "165",
+      "name": {
+        "de": "Yennefer von Vengerberg",
+        "en": "Yennefer of Vengerberg"
+      },
+      "strength": 7,
+      "row": "ranged",
+      "hero": true,
+      "ability": "medic",
+      "count": 1
+    },
+    {
+      "id": "166",
+      "name": {
+        "de": "Triss Merigold",
+        "en": "Triss Merigold"
+      },
+      "strength": 7,
+      "row": "melee",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "167",
+      "name": {
+        "de": "Mysteriöser Elf",
+        "en": "Mysterious Elf"
+      },
+      "strength": 0,
+      "row": "melee",
+      "hero": true,
+      "ability": "spy",
+      "count": 1
+    },
+    {
+      "id": "168",
+      "name": {
+        "de": "Villentretenmerth",
+        "en": "Villentretenmerth"
+      },
+      "strength": 7,
+      "row": "melee",
+      "hero": true,
+      "ability": "scorch_melee",
+      "count": 1
+    },
+    {
+      "id": "169",
+      "name": {
+        "de": "Vesemir",
+        "en": "Vesemir"
+      },
+      "strength": 6,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "170",
+      "name": {
+        "de": "Zoltan Chivay",
+        "en": "Zoltan Chivay"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "171",
+      "name": {
+        "de": "Regis",
+        "en": "Regis"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "172",
+      "name": {
+        "de": "Rittersporn",
+        "en": "Dandelion"
+      },
+      "strength": 2,
+      "row": "melee",
+      "ability": "horn",
+      "count": 1
+    }
+  ],
+  "nilfgaard": [
+    {
+      "id": "041",
+      "name": {
+        "de": "Menno Coehoorn",
+        "en": "Menno Coehoorn"
+      },
+      "strength": 10,
+      "row": "melee",
+      "hero": true,
+      "ability": "medic",
+      "count": 1
+    },
+    {
+      "id": "040",
+      "name": {
+        "de": "Letho von Gulet",
+        "en": "Letho of Gulet"
+      },
+      "strength": 10,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "042",
+      "name": {
+        "de": "Stefan Skellen",
+        "en": "Stefan Skellen"
+      },
+      "strength": 9,
+      "row": "melee",
+      "ability": "spy",
+      "count": 1
+    },
+    {
+      "id": "043",
+      "name": {
+        "de": "Shilard Fitz-Oesterlen",
+        "en": "Shilard Fitz-Oesterlen"
+      },
+      "strength": 7,
+      "row": "melee",
+      "ability": "spy",
+      "count": 1
+    },
+    {
+      "id": "044",
+      "name": {
+        "de": "Cahir aep Ceallach",
+        "en": "Cahir Mawr Dyffryn aep Ceallach"
+      },
+      "strength": 6,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "045",
+      "name": {
+        "de": "Junger Gesandter",
+        "en": "Young Emissary"
+      },
+      "strength": 5,
+      "row": "melee",
+      "ability": "bond",
+      "count": 2
+    },
+    {
+      "id": "047",
+      "name": {
+        "de": "Rainfarn",
+        "en": "Rainfarn"
+      },
+      "strength": 4,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "048",
+      "name": {
+        "de": "Vattier de Rideaux",
+        "en": "Vattier de Rideaux"
+      },
+      "strength": 4,
+      "row": "melee",
+      "ability": "spy",
+      "count": 1
+    },
+    {
+      "id": "049",
+      "name": {
+        "de": "Morteisen",
+        "en": "Morteisen"
+      },
+      "strength": 3,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "050",
+      "name": {
+        "de": "Imperia-Brigade",
+        "en": "Impera Brigade Guard"
+      },
+      "strength": 3,
+      "row": "melee",
+      "ability": "bond",
+      "count": 4
+    },
+    {
+      "id": "051",
+      "name": {
+        "de": "Vreemde",
+        "en": "Vreemde"
+      },
+      "strength": 2,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "052",
+      "name": {
+        "de": "Nausicaa-Kavalleriebrigade",
+        "en": "Nausicaa Cavalry Rider"
+      },
+      "strength": 2,
+      "row": "melee",
+      "ability": "bond",
+      "count": 3
+    },
+    {
+      "id": "053",
+      "name": {
+        "de": "Tibor Eggebracht",
+        "en": "Tibor Eggebracht"
+      },
+      "strength": 10,
+      "row": "ranged",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "054",
+      "name": {
+        "de": "Schütze der schweren Infanterie",
+        "en": "Nilfgaardian Archer"
+      },
+      "strength": 6,
+      "row": "ranged",
+      "count": 2
+    },
+    {
+      "id": "056",
+      "name": {
+        "de": "Assire var Anahid",
+        "en": "Assire var Anahid"
+      },
+      "strength": 6,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "057",
+      "name": {
+        "de": "Fringilla Vigo",
+        "en": "Fringilla Vigo"
+      },
+      "strength": 6,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "058",
+      "name": {
+        "de": "Renuald aep Matsen",
+        "en": "Renuald aep Matsen"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "059",
+      "name": {
+        "de": "Cynthia",
+        "en": "Cynthia"
+      },
+      "strength": 4,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "060",
+      "name": {
+        "de": "Vanhemar",
+        "en": "Vanhemar"
+      },
+      "strength": 4,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "061",
+      "name": {
+        "de": "Puttkammer",
+        "en": "Puttkammer"
+      },
+      "strength": 3,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "062",
+      "name": {
+        "de": "Albrich",
+        "en": "Albrich"
+      },
+      "strength": 2,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "063",
+      "name": {
+        "de": "Sweers",
+        "en": "Sweers"
+      },
+      "strength": 2,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "064",
+      "name": {
+        "de": "Bogenschütze",
+        "en": "Archer"
+      },
+      "strength": 1,
+      "row": "ranged",
+      "count": 2,
+      "ability": "medic"
+    },
+    {
+      "id": "066",
+      "name": {
+        "de": "Morvran Voorhis",
+        "en": "Morvran Voorhis"
+      },
+      "strength": 10,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "068",
+      "name": {
+        "de": "Ingenieur",
+        "en": "Siege Engineer"
+      },
+      "strength": 6,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "067",
+      "name": {
+        "de": "Schwerer Feuerskorpion",
+        "en": "Heavy Zerrikanian Fire Scorpion"
+      },
+      "strength": 10,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "069",
+      "name": {
+        "de": "Feuerskorpion",
+        "en": "Zerrikanian Fire Scorpion"
+      },
+      "strength": 5,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "070",
+      "name": {
+        "de": "Verrottete Mangonel",
+        "en": "Rotten Mangonel"
+      },
+      "strength": 3,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "071",
+      "name": {
+        "de": "Unterstützung",
+        "en": "Siege Support"
+      },
+      "strength": 1,
+      "row": "siege",
+      "ability": "medic",
+      "count": 3
+    }
+  ],
+  "scoiatael": [
+    {
+      "id": "076",
+      "name": {
+        "de": "Isengrim Faoiltiarna",
+        "en": "Isengrim Faoiltiarna"
+      },
+      "strength": 10,
+      "row": "melee",
+      "hero": true,
+      "ability": "medic",
+      "count": 1
+    },
+    {
+      "id": "100",
+      "name": {
+        "de": "Iorweth",
+        "en": "Iorveth"
+      },
+      "strength": 10,
+      "row": "ranged",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "099",
+      "name": {
+        "de": "Saesenthessis",
+        "en": "Saesenthessis"
+      },
+      "strength": 10,
+      "row": "ranged",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "098",
+      "name": {
+        "de": "Eithne",
+        "en": "Eithne"
+      },
+      "strength": 10,
+      "row": "ranged",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "077",
+      "name": {
+        "de": "Dennis Cranmer",
+        "en": "Dennis Cranmer"
+      },
+      "strength": 6,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "078",
+      "name": {
+        "de": "Filavandrel aën Fidhaïl",
+        "en": "Filavandrel aén Fidháil"
+      },
+      "strength": 6,
+      "row": "agile",
+      "count": 1
+    },
+    {
+      "id": "079",
+      "name": {
+        "de": "Yaevinn",
+        "en": "Yaevinn"
+      },
+      "strength": 6,
+      "row": "agile",
+      "count": 1
+    },
+    {
+      "id": "080",
+      "name": {
+        "de": "Barclay Els",
+        "en": "Barclay Els"
+      },
+      "strength": 6,
+      "row": "agile",
+      "count": 1
+    },
+    {
+      "id": "089",
+      "name": {
+        "de": "Mahakam-Verteidiger",
+        "en": "Mahakaman Defender"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 5
+    },
+    {
+      "id": "094",
+      "name": {
+        "de": "Ciaran aep Easnillien",
+        "en": "Ciaran aep Easnillien"
+      },
+      "strength": 3,
+      "row": "agile",
+      "count": 1
+    },
+    {
+      "id": "095",
+      "name": {
+        "de": "Zwergen-Scharmützler",
+        "en": "Dwarven Skirmisher"
+      },
+      "strength": 3,
+      "row": "melee",
+      "ability": "muster",
+      "count": 3
+    },
+    {
+      "id": "106",
+      "name": {
+        "de": "Elfen-Scharmützler",
+        "en": "Elven Skirmisher"
+      },
+      "strength": 2,
+      "row": "ranged",
+      "ability": "muster",
+      "count": 3
+    },
+    {
+      "id": "101",
+      "name": {
+        "de": "Milva",
+        "en": "Milva"
+      },
+      "strength": 10,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "102",
+      "name": {
+        "de": "Ida Emean aep Sivney",
+        "en": "Ida Emean aep Sivney"
+      },
+      "strength": 6,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "087",
+      "name": {
+        "de": "Vrihedd-Brigade",
+        "en": "Vrihedd Brigade Veteran"
+      },
+      "strength": 5,
+      "row": "agile",
+      "count": 2
+    },
+    {
+      "id": "103",
+      "name": {
+        "de": "Vrihedd-Kadett",
+        "en": "Vrihedd Brigade Recruit"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "104",
+      "name": {
+        "de": "Dol-Blathanna-Schütze",
+        "en": "Dol Blathanna Archer"
+      },
+      "strength": 4,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "105",
+      "name": {
+        "de": "Toruviel",
+        "en": "Toruviel"
+      },
+      "strength": 2,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "109",
+      "name": {
+        "de": "Riordain",
+        "en": "Riordain"
+      },
+      "strength": 1,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "081",
+      "name": {
+        "de": "Dol-Blathanna-Späher",
+        "en": "Dol Blathanna Scout"
+      },
+      "strength": 6,
+      "row": "agile",
+      "count": 3
+    },
+    {
+      "id": "084",
+      "name": {
+        "de": "Havekar-Unterstützer",
+        "en": "Havekar Support"
+      },
+      "strength": 4,
+      "row": "melee",
+      "ability": "muster",
+      "count": 3
+    },
+    {
+      "id": "110",
+      "name": {
+        "de": "Havekar-Heiler",
+        "en": "Havekar Healer"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "ability": "medic",
+      "count": 3
+    }
+  ],
+  "monster": [
+    {
+      "id": "113",
+      "name": {
+        "de": "Eredin",
+        "en": "Eredin"
+      },
+      "strength": 10,
+      "row": "melee",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "117",
+      "name": {
+        "de": "Draug",
+        "en": "Draug"
+      },
+      "strength": 10,
+      "row": "melee",
+      "hero": true,
+      "count": 1
+    },
+    {
+      "id": "118",
+      "name": {
+        "de": "Imlerith",
+        "en": "Imlerith"
+      },
+      "strength": 10,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "119",
+      "name": {
+        "de": "Kayran",
+        "en": "Kayran"
+      },
+      "strength": 8,
+      "row": "agile",
+      "count": 1
+    },
+    {
+      "id": "121",
+      "name": {
+        "de": "Die Muhmen",
+        "en": "The Crones"
+      },
+      "strength": 6,
+      "row": "melee",
+      "ability": "muster",
+      "count": 3
+    },
+    {
+      "id": "128",
+      "name": {
+        "de": "Einschüchterer",
+        "en": "Fiend"
+      },
+      "strength": 6,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "147",
+      "name": {
+        "de": "Gruftweib",
+        "en": "Grave Hag"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "124",
+      "name": {
+        "de": "Gabelschwanz",
+        "en": "Forktail"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "125",
+      "name": {
+        "de": "Pestmaid",
+        "en": "Plague Maiden"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "126",
+      "name": {
+        "de": "Greif",
+        "en": "Griffin"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "127",
+      "name": {
+        "de": "Werwolf",
+        "en": "Werewolf"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "150",
+      "name": {
+        "de": "Gargoyle",
+        "en": "Gargoyle"
+      },
+      "strength": 5,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "133",
+      "name": {
+        "de": "Vampir: Ekimma",
+        "en": "Vampire: Ekimmara"
+      },
+      "strength": 4,
+      "row": "melee",
+      "count": 1,
+      "ability": "muster",
+      "muster_group": "vampire"
+    },
+    {
+      "id": "134",
+      "name": {
+        "de": "Vampir: Flatterer",
+        "en": "Vampire: Fleder"
+      },
+      "strength": 4,
+      "row": "melee",
+      "count": 1,
+      "ability": "muster",
+      "muster_group": "vampire"
+    },
+    {
+      "id": "135",
+      "name": {
+        "de": "Vampir: Garkin",
+        "en": "Vampire: Garkain"
+      },
+      "strength": 4,
+      "row": "melee",
+      "count": 1,
+      "ability": "muster",
+      "muster_group": "vampire"
+    },
+    {
+      "id": "136",
+      "name": {
+        "de": "Vampir: Bruxa",
+        "en": "Vampire: Bruxa"
+      },
+      "strength": 4,
+      "row": "melee",
+      "count": 1,
+      "ability": "muster",
+      "muster_group": "vampire"
+    },
+    {
+      "id": "173",
+      "name": {
+        "de": "Vampir: Katakan",
+        "en": "Vampire: Katakan"
+      },
+      "strength": 5,
+      "row": "melee",
+      "count": 1,
+      "ability": "muster",
+      "muster_group": "vampire"
+    },
+    {
+      "id": "129",
+      "name": {
+        "de": "Fehlgeborener",
+        "en": "Botchling"
+      },
+      "strength": 4,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "130",
+      "name": {
+        "de": "Krabbspinne",
+        "en": "Arachas"
+      },
+      "strength": 4,
+      "row": "melee",
+      "ability": "muster",
+      "count": 3,
+      "muster_group": "arachas"
+    },
+    {
+      "id": "148",
+      "name": {
+        "de": "Endriaga",
+        "en": "Endrega"
+      },
+      "strength": 3,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "140",
+      "name": {
+        "de": "Nekker",
+        "en": "Nekker"
+      },
+      "strength": 2,
+      "row": "melee",
+      "ability": "muster",
+      "count": 3
+    },
+    {
+      "id": "143",
+      "name": {
+        "de": "Ghul",
+        "en": "Ghoul"
+      },
+      "strength": 1,
+      "row": "melee",
+      "ability": "muster",
+      "count": 3
+    },
+    {
+      "id": "139",
+      "name": {
+        "de": "Nebling",
+        "en": "Foglet"
+      },
+      "strength": 2,
+      "row": "melee",
+      "count": 1
+    },
+    {
+      "id": "137",
+      "name": {
+        "de": "Harpyie",
+        "en": "Harpy"
+      },
+      "strength": 2,
+      "row": "agile",
+      "count": 1
+    },
+    {
+      "id": "138",
+      "name": {
+        "de": "Kelajno-Harpyie",
+        "en": "Celaeno Harpy"
+      },
+      "strength": 2,
+      "row": "agile",
+      "count": 1
+    },
+    {
+      "id": "151",
+      "name": {
+        "de": "Wyvern",
+        "en": "Wyvern"
+      },
+      "strength": 2,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "146",
+      "name": {
+        "de": "Waldschrat",
+        "en": "Leshen"
+      },
+      "strength": 2,
+      "row": "ranged",
+      "count": 1
+    },
+    {
+      "id": "152",
+      "name": {
+        "de": "Erdgenius",
+        "en": "Earth Elemental"
+      },
+      "strength": 6,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "153",
+      "name": {
+        "de": "Feuergenius",
+        "en": "Fire Elemental"
+      },
+      "strength": 6,
+      "row": "siege",
+      "count": 1
+    },
+    {
+      "id": "154",
+      "name": {
+        "de": "Krabbenspinnen-Ungetüm",
+        "en": "Arachas Behemoth"
+      },
+      "strength": 6,
+      "row": "siege",
+      "count": 1,
+      "ability": "muster",
+      "muster_group": "arachas"
+    },
+    {
+      "id": "155",
+      "name": {
+        "de": "Eisriese",
+        "en": "Ice Giant"
+      },
+      "strength": 5,
+      "row": "siege",
+      "count": 1
+    }
+  ]
+}
