@@ -84,6 +84,67 @@ if os.path.exists('README.md'):
     hits = words & GERMAN_WORDS
     check('README.md is English', not hits, ', '.join(sorted(hits)[:5]))
 
+    # --- markdown GitHub renders differently than a local preview ----------
+    # The file was once written out as cp1252 and read back as UTF-8, which
+    # turned every dash and box drawing character into "a-euro-quote". An
+    # editor still shows something; GitHub shows the mojibake.
+    mojibake = [n for n, line in enumerate(readme.split('\n'), 1)
+                if '\u00e2\u20ac' in line
+                or re.search('\u00c3[\u0080-\u00ff]', line)]
+    check('README.md is not doubly encoded', not mojibake,
+          f'lines {mojibake[:5]}')
+
+    lines = readme.split('\n')
+    fences = [n for n, line in enumerate(lines, 1)
+              if line.strip().startswith('```')]
+    check('README.md code fences pair up', len(fences) % 2 == 0,
+          f'{len(fences)} fences')
+
+    # Tables need a separator row and an even column count, otherwise
+    # GitHub prints the raw pipes instead of drawing a table.
+    bad_tables = []
+    inside = False
+    index = 0
+    while index < len(lines):
+        stripped = lines[index].strip()
+        if stripped.startswith('```'):
+            inside = not inside
+            index += 1
+            continue
+        if inside or not stripped.startswith('|'):
+            index += 1
+            continue
+        start = index
+        block = []
+        while index < len(lines) and lines[index].strip().startswith('|'):
+            block.append(lines[index].strip())
+            index += 1
+        if len(block) < 2 or not re.match(r'^\|[\s:|-]+\|$', block[1]):
+            bad_tables.append(f'line {start + 1}: no separator row')
+            continue
+        width = block[0].count('|')
+        for offset, row in enumerate(block):
+            if row.count('|') != width:
+                bad_tables.append(f'line {start + 1 + offset}: '
+                                  f'{row.count("|") - 1} of {width - 1} columns')
+
+    check('README.md tables are well formed', not bad_tables,
+          '; '.join(bad_tables[:3]))
+
+    # An odd number of asterisks in a table cell opens an emphasis that
+    # swallows the rest of the row - "Poor F***ing Infantry" did exactly that.
+    loose = []
+    for lineno, line in enumerate(lines, 1):
+        if not line.strip().startswith('|'):
+            continue
+        for cell in line.split('|'):
+            if re.sub(r'`[^`]*`', '', cell).count('*') % 2:
+                loose.append(str(lineno))
+                break
+
+    check('README.md has no unbalanced emphasis in tables', not loose,
+          f'lines {loose[:5]}')
+
 # German user-facing text must still exist - in the catalogue only
 from gwint_i18n import TEXT  # noqa: E402
 check('german strings live in gwint_i18n.py',

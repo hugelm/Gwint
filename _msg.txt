@@ -1,0 +1,10 @@
+Fix doubly encoded README and guard the markdown in tests
+
+The README had been written out as cp1252 and read back as UTF-8, which
+turned every dash, arrow and box drawing character into mojibake. GitHub
+rendered the raw bytes while a local editor still looked plausible.
+
+Also escapes the asterisks in a card name that opened an emphasis run
+inside a table cell, and extends test_source.py to catch double
+encoding, unpaired code fences, ragged tables and loose emphasis.
+
